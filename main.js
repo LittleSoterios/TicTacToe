@@ -147,7 +147,7 @@ function renderBoard(){
 function renderMessage(){
     title.innerText = "Tic Tac Toe"
     if (winner === 'T'){
-        msgEl.innerText = 'IT\'s TIE!';
+        msgEl.innerText = 'IT\'s a TIE!';
 
     } else if(winner) {
         msgEl.innerHTML = `<span> ${SYMBOL[winner]}</span> WINS!`;
